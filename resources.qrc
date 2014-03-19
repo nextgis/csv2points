@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="/plugins/csv2points" >
+     <file>icons/x_office_spreadsheet.png</file>
+  </qresource>
+</RCC>

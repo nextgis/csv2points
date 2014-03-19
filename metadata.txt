@@ -1,0 +1,21 @@
+[general]
+name=CSV2Points
+qgisMinimumVersion=2.0
+description=Create points shapefile from csv file. This plugin has no real use
+category=Vector
+version=0.1
+
+author=Alexander Lisovenko
+email = alexander.lisovenko@gmail.ru
+
+icon=icons/x_office_spreadsheet.png
+
+tags=csv, vector, shape, points
+
+homepage=
+tracker=
+repository=
+
+
+experimental=True
+deprecated=False
