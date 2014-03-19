@@ -41,8 +41,8 @@ clean:
 	rm -f *.zip
 
 package:
-	cd .. && rm -f *.zip && zip -r points.zip points -x \*.pyc \*.ts \*.ui \*.qrc \*.pro \*~ \*.git\* \*Makefile*
-	mv ../points.zip .
+	cd .. && rm -f *.zip && zip -r csv2points.zip csv2points -x \*.pyc \*.ts \*.ui \*.qrc \*.pro \*~ \*.git\* \*Makefile*
+	mv ../csv2points.zip .
 
 upload:
-	plugin_uploader.py points.zip
+	plugin_uploader.py csv2points.zip
